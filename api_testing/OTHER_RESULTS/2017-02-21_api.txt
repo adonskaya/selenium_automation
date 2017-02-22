@@ -1,0 +1,6 @@
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=getrealmsettings
+TEST RESULT: "39369","N","N"
+
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=show_lists&output_format=csv&headers=1
+TEST RESULT: "List Number","List Name","List Description","Folder ID" "19","apiFTP","","-1" "21","apiFTPdrop","","-1" "20","apiFTPsticky","","-1" "24","apiHTTP","","-1" "25","apiHTTPsticky","","-1" "26","apiWebServices","","-1" "27","apiWebServicessticky","","-1" "22","apiXMLAPI","","-1" "23","apiXMLsticky","","-1" "31","HTTP API CREATE LIST","","0" "32","HTTP API ExCreate List","","0" "12","testConfirm","","-1" "9","testImport","","-1" "17","testLifecycleBatch","","-1" "16","testLifecycleCalendar","","-1" "15","testLifecycleDeploy","","-1" "6","testList","","-1" "7","testSeed","","-1" "8","testSmartSubscribe","","-1" "18","testSuperList","","-1" "10","testWorkflow","","-1"
+

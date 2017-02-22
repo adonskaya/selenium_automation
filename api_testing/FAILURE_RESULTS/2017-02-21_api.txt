@@ -1,0 +1,24 @@
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=getfolderidbypath&folder_path=/http_api_article&folder_type=4
+TEST RESULT: FAILURE: cannot create folder /http_api_article
+
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=customfieldcreate&fieldname=http_api_float1&fieldtype=7&description=http_api_float1
+TEST RESULT: FAILURE: Custom field exists.
+
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=customfielddelete&fieldname=http_api_date2
+TEST RESULT: FAILURE: No results returned. Either the custom field does not exist or the URL is incorrect or does not exist.
+
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=createlist&list_name=HTTP+API+CREATE+LIST
+TEST RESULT: FAILURE: A list by the name "HTTP API CREATE LIST" already exists!
+
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=excreatelist&list_name=HTTP+API+ExCreate+List
+TEST RESULT: FAILURE: A list by the name "HTTP API ExCreate List" already exists!
+
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=updatelist&list_id=36&from=from@example.com&reply_to=reply_to@example.com&errors_to=bounce@example.com
+TEST RESULT: FAILURE: Error looking up list ids, one or more list ids specified do not belong to your realm
+
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=getlistbyid&list_id=37&output_format=csv&headers=1
+TEST RESULT: FAILURE: Error looking up list ids, one or more list ids specified do not belong to your realm
+
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=getlistbyid&list_id=36&output_format=csv&headers=1
+TEST RESULT: FAILURE: Error looking up list ids, one or more list ids specified do not belong to your realm
+

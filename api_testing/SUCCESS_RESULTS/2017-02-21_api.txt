@@ -1,0 +1,3 @@
+http://admin.qa.whatcounts.com/bin/api_web?r=v1260&p=ltabscom39369&c=createfolderpath&folder_path=/http_api_seg&folder_type=1
+TEST RESULT: SUCCESS: 14
+
